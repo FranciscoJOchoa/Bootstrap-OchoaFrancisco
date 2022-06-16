@@ -1,13 +1,12 @@
-
-
-
 .width{
     width: 100%;
     margin: 0 auto;  
     }
+img:hover{
+    transform: 0.9;
+}
 
-.color{
-    background-color: black ;
-    border-top: black ; 
-    border-bottom: black ; 
+img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
